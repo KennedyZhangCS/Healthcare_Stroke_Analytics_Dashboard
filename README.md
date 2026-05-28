@@ -71,6 +71,16 @@ GROUP BY gender;
 
 ## Key Insights
 
+- Stroke occurrence increased significantly among patients over age 60
+- Patients with hypertension demonstrated higher stroke rates
+- Former smokers showed elevated stroke percentages compared to non-smokers
+- Patient demographic analysis revealed noticeable healthcare risk differences across age and gender groups
+- Interactive dashboards improved visibility into patient health trends and operational analytics
+
+---
+
+## Key Insights
+
 - Stroke rates increased significantly among older patients
 - Hypertension showed strong correlation with stroke occurrence
 - Smoking status demonstrated noticeable differences in stroke rates
