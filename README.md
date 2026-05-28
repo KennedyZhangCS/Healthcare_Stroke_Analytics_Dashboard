@@ -16,6 +16,16 @@ This project analyzes healthcare stroke data using SQL, Python, SQLite, and Powe
 
 ---
 
+## ETL Workflow
+
+1. Extracted healthcare patient data from CSV datasets
+2. Cleaned and transformed missing BMI and demographic values using Python Pandas
+3. Loaded transformed healthcare data into a SQLite database
+4. Queried healthcare metrics and patient trends using SQL
+5. Built interactive Power BI dashboards for healthcare analytics visualization
+
+---
+
 ## Key Features
 
 - Built a healthcare analytics database using SQLite
