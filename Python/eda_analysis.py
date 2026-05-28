@@ -8,9 +8,8 @@ conn = sqlite3.connect("../healthcare.db")
 #read data
 df = pd.read_sql_query("SELECT * FROM patients", conn)
 
-# =========================
+
 # Stroke Cases Summary
-# =========================
 total_patients = len(df)
 stroke_cases = df["stroke"].sum()
 
@@ -21,17 +20,15 @@ stroke_rate = (stroke_cases / total_patients) * 100
 
 print(f"Stroke Rate: {stroke_rate:.2f}%")
 
-# =========================
+
 # Stroke by Gender
-# =========================
 gender_analysis = df.groupby("gender")["stroke"].mean() * 100
 
 print("\nStroke Percentage by Gender:")
 print(gender_analysis)
 
-# =========================
+
 # Visualization
-# =========================
 gender_analysis.plot(kind="bar")
 
 plt.title("Stroke Percentage by Gender")
