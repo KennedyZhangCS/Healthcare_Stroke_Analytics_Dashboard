@@ -40,6 +40,16 @@ This project analyzes healthcare stroke data using SQL, Python, SQLite, and Powe
 
 ---
 
+## Business Questions Explored
+
+- Which patient demographics demonstrate the highest stroke risk?
+- Does hypertension correlate with stroke occurrence?
+- How does smoking status impact patient stroke rates?
+- Which age groups show elevated healthcare risk patterns?
+- How can healthcare dashboards support clinical and operational decision-making?
+
+---
+
 ## Example SQL Analysis
 
 ```sql
