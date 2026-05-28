@@ -77,6 +77,21 @@ GROUP BY gender;
 
 ---
 
+## Data Dictionary
+
+| Column | Description |
+|---|---|
+| age | Patient age |
+| gender | Patient gender |
+| hypertension | Indicates whether the patient has hypertension |
+| heart_disease | Indicates whether the patient has heart disease |
+| avg_glucose_level | Average glucose level recorded for the patient |
+| bmi | Body Mass Index |
+| smoking_status | Patient smoking history |
+| stroke | Indicates whether the patient experienced a stroke |
+
+---
+
 ## Dataset
 
 Stroke Prediction Dataset from Kaggle.
